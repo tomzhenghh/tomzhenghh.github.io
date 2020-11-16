@@ -4,7 +4,6 @@
     
     document.body.addEventListener('click',
     function(e) {
-    //����a��ǩ
         if (e.target.tagName == 'A') {
             return;
         }

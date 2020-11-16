@@ -1,10 +1,9 @@
 (function() {
-    var coreSocialistValues = ["��ǿ", "����", "����", "��г", "����", "ƽ��", "����", "����", "����", "��ҵ", "����", "����"],
+    var coreSocialistValues = ["aa","bb","cc","dd","ee"];
     index = Math.floor(Math.random() * coreSocialistValues.length);
     
     document.body.addEventListener('click',
     function(e) {
-    //����a��ǩ
         if (e.target.tagName == 'A') {
             return;
         }
